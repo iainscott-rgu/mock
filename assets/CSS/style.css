@@ -37,3 +37,8 @@ header{
 
     float: right;
 }
+
+h2{
+    font-size: 20px;
+    font-weight: 200;
+}
