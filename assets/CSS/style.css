@@ -17,3 +17,8 @@ nav>ul{
     padding: 0;
     overflow: hidden;
 }
+
+li{
+
+    font-size: 20px;
+}
