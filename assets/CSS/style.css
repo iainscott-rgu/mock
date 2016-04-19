@@ -16,7 +16,6 @@ nav>ul{
     margin: 0;
     padding-left: 0;
     overflow: hidden;
-    padding-bottom: 20px;
 }
 
 li{
@@ -27,6 +26,7 @@ li{
 nav>ul>li a{
 
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 header{
