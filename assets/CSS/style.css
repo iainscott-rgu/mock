@@ -21,12 +21,13 @@ nav>ul{
 li{
 
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 nav>ul>li a{
 
     text-decoration: none;
-    padding-bottom: 50px;
+
 }
 
 header{
