@@ -32,3 +32,8 @@ header{
 
     height: 100px;
 }
+
+#submit{
+
+    alignment: right;
+}
