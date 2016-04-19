@@ -9,8 +9,6 @@ body{
 
     width: 100px;
     float: left;
-    vertical-align: middle;
-
 }
 
 nav>ul{
@@ -46,5 +44,5 @@ h2{
 }
 
 #text{
-    vertical-align: middle;
+    margin-top: 10px;
 }
