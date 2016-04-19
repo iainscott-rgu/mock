@@ -9,7 +9,7 @@ body{
 
     width: 100px;
     float: left;
-    vertical-align: middle;
+
 }
 
 nav>ul{
@@ -32,7 +32,8 @@ nav>ul>li a{
 header{
 
     height: 100px;
-    vertical-align: middle;
+    margin-top: 10px;
+
 }
 
 #submit{
