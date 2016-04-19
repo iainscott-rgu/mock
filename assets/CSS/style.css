@@ -45,6 +45,11 @@ h2{
 
 footer>p{
 
-    align-content: center;
+    text-align: center;
 
+}
+
+#paragraph{
+
+    vertical-align: top;
 }
