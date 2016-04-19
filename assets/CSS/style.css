@@ -43,6 +43,8 @@ h2{
     font-weight: 200;
 }
 
-footer{
-    align-content: center;
+footer>p{
+
+    alignment: center;
+
 }
