@@ -32,8 +32,6 @@ nav>ul>li a{
 header{
 
     height: 100px;
-    margin-top: 10px;
-
 }
 
 #submit{
@@ -44,4 +42,8 @@ header{
 h2{
     font-size: 20px;
     font-weight: 200;
+}
+
+#text{
+    vertical-align: middle;
 }
