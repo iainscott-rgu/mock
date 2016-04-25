@@ -52,12 +52,11 @@
             $name = $row['name'];
             $summary = $row['summary'];
             $category = $row['category'];
-            echo " <br>Name: .'{$name}'. ";
-            echo " <br>Summary: .'{$summary}'. ";
-            echo " <br>Category: .'{$category}'.
+            echo "
 
 
- <!--
+
+
 
 
  <form class='form2'>
@@ -70,7 +69,7 @@
         </table>
     </form>
     <hr>
-    -->
+
 
 
     ";
@@ -87,3 +86,11 @@
 </footer>
 </body>
 </html>
+
+<!--
+
+            echo " <br>Name: .'{$name}'. ";
+            echo " <br>Summary: .'{$summary}'. ";
+            echo " <br>Category: .'{$category}'.
+
+-->
