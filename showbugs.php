@@ -52,8 +52,8 @@
             $name = $row['name'];
             $summary = $row['summary'];
             $category = $row['category'];
-            echo " <br>Name: .'{$name}'. <br><hr>";
-            echo " Summary: .'{$summary}'. <br><hr>";
+            echo " <br>Name: .'{$name}'. <br>";
+            echo " Summary: .'{$summary}'. <br>";
             echo " Category: .'{$category}'. <br><hr>
 
  <!--
