@@ -43,7 +43,7 @@
                         <label for="name">Bug Name:</label>
                     </td>
                     <td>
-                        <input type="text" name="name" value="" size="44" required>
+                        <input type="text" class="form2" name="name" value="" size="44" required>
                     </td>
                 </tr>
                 <tr><td><label for="summary">Bug Summary:</label></td><td>
