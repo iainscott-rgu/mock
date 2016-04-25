@@ -53,7 +53,9 @@
             $summary = $row['summary'];
             $category = $row['category'];
             echo " <form class='form2'>
-        <table>
+
+
+        <table class='display'>
             <tr><td><input type='text' name='link' size='100' value='{$name}'></td></tr>
             <tr><td><textarea cols='101' rows='5' name='summary'>'{$summary}'</textarea></td></tr>
             <tr><td><input type='text' name='category' size='100' value='{$category}'></td></tr>
