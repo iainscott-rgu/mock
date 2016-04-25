@@ -44,7 +44,7 @@
             $sql = "SELECT * FROM bugs WHERE category = '$bugsCategory'";
         }
         else{
-            echo "category all bugs";
+            echo "<p>category all bugs</p>";
             $sql = "SELECT * FROM bugs";
         }
         $result = $db->query($sql);
@@ -52,7 +52,7 @@
             $name = $row['name'];
             $summary = $row['summary'];
             $category = $row['category'];
-            echo " <p>Name: .'{$name}'. ";
+            echo " <br>Name: .'{$name}'. ";
             echo " <br>Summary: .'{$summary}'. ";
             echo " <br>Category: .'{$category}'. ";
             echo "<p>
