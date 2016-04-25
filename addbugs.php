@@ -27,9 +27,9 @@
         <nav>
             <ul>
                 <li><a href="showbugs.php">All Bugs</a></li>
-                <li><a href="bugs.php">Android Bugs</a></li>
-                <li><a href="bugs.php">iOS Bugs</a></li>
-                <li><a href="bugs.php">Windows Bugs</a></li>
+                <li><a href="showbugs.php">Android Bugs</a></li>
+                <li><a href="showbugs.php">iOS Bugs</a></li>
+                <li><a href="showbugs.php">Windows Bugs</a></li>
                 <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
@@ -51,9 +51,9 @@
                 <tr><td>
                         <label for="category">Bug Category:</label></td><td>
                         <select name="category">
-                            <option value="Android">Android</option>
-                            <option value="iOS">iOS</option>
-                            <option value="Windows">Windows</option>
+                            <option value="Android" name="Android">Android</option>
+                            <option value="iOS" name="ios">iOS</option>
+                            <option value="Windows" name="windows">Windows</option>
 
                         </select>
                     </td></tr>
@@ -65,6 +65,8 @@
 
 
     </section>
+
+
 
 </main>
 
