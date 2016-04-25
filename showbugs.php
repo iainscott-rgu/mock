@@ -59,7 +59,7 @@
             <tr><td><input type='text' name='category' size='100' value='{$category}'></td></tr>
         </table>
     </form>
-    <hr align='center'>";
+    <hr>";
         }
         ?>
 
