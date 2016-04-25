@@ -55,9 +55,9 @@
             echo "
     <form>
         <table>
-            <tr><td><input type='text' class='form2' name='link' size='100' value='{$name}' readonly></td></tr>
-            <tr><td><textarea class='form2' cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
-            <tr><td><input type='text' class='form2' name='category' size='100' value='{$category}' readonly></td></tr>
+            <tr><td>Name:</td><td><input type='text' class='form2' name='link' size='100' value='{$name}' readonly></td></tr>
+            <tr><td>Summary:</td><td><textarea class='form2' cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
+            <tr><td>Category:</td><td><input type='text' class='form2' name='category' size='100' value='{$category}' readonly></td></tr>
         </table>
     </form><hr>
     ";
