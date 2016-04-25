@@ -54,7 +54,8 @@
             $category = $row['category'];
             echo " <br>Name: .'{$name}'. ";
             echo " <br>Summary: .'{$summary}'. ";
-            echo " <br>Category: .'{$category}'. <p>
+            echo " <br>Category: .'{$category}'. ";
+            echo "<hr>
 
  <!--
 
