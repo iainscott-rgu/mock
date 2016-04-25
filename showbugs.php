@@ -55,7 +55,7 @@
             echo " <br>Name: .'{$name}'. ";
             echo " <br>Summary: .'{$summary}'. ";
             echo " <br>Category: .'{$category}'. ";
-            echo "<hr>
+            echo "<p>
 
  <!--
 
