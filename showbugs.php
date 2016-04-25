@@ -44,7 +44,7 @@
             $sql = "SELECT * FROM bugs WHERE category = '$bugsCategory'";
         }
         else{
-            echo "<p>category: all bugs</p>";
+            echo "category: all bugs<hr>";
             $sql = "SELECT * FROM bugs";
         }
         $result = $db->query($sql);
@@ -54,11 +54,11 @@
             $category = $row['category'];
             echo "
     <form>
-        <table>
+        <table><p>
             <tr><td>Name:</td><td><input type='text' class='form2' name='link' size='100' value='{$name}' readonly></td></tr>
             <tr><td>Summary:</td><td><textarea class='form2' cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
             <tr><td>Category:</td><td><input type='text' class='form2' name='category' size='100' value='{$category}' readonly></td></tr>
-        </table>
+        </table></p>
     </form><hr>
     ";
         }
