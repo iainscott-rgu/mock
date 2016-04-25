@@ -47,10 +47,10 @@
                     </td>
                 </tr>
                 <tr><td><label for="summary">Bug Summary:</label></td><td>
-                        <textarea name="summary" cols="45" rows="5" required></textarea></td></tr>
+                        <textarea name="summary" class="form2" cols="45" rows="5" required></textarea></td></tr>
                 <tr><td>
                         <label for="category">Bug Category:</label></td><td>
-                        <select name="category">
+                        <select name="category" class="form2">
                             <option value="Android" name="Android">Android</option>
                             <option value="iOS" name="ios">iOS</option>
                             <option value="Windows" name="windows">Windows</option>
