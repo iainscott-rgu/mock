@@ -6,6 +6,20 @@
     <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
     <link rel="stylesheet" type="text/css" href="assets/CSS/unsemantic-grid-responsive-tablet.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <?php
+    include("connect.php");
+    $name = $_POST["name"];
+    $summary = $_POST["summary"];
+    $category = $_POST["category"];
+    $sql = "INSERT INTO bugs (name, summary, category) VALUES ($name','$summary','$category')";
+    if(mysqli_query($db, $sql)) {
+    }else{
+        echo "Error: " . $sql . "<br>" . mysqli_error($db);
+    }
+    header("location:index.php");
+    ?>
+
 </head>
 <body>
 
@@ -65,18 +79,6 @@
 
 </main>
 
-<?php
-include("connect.php");
-$name = $_POST["name"];
-$summary = $_POST["summary"];
-$category = $_POST["category"];
-$sql = "INSERT INTO bugs (name, summary, category) VALUES ($name','$summary','$category')";
-if(mysqli_query($db, $sql)) {
-}else{
-    echo "Error: " . $sql . "<br>" . mysqli_error($db);
-}
-header("location:index.php");
-?>
 
 <footer>
     <p>Designed by Iain Scott, 2016.</p>
