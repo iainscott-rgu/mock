@@ -61,10 +61,8 @@ footer>p{
 hr{
     
     width: 720px;
-    height: 3px;
+    height: 1px;
     border: solid;
-    float: right;
-
 }
 
 .form2{
@@ -73,5 +71,4 @@ hr{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-
 }
