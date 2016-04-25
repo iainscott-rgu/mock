@@ -52,7 +52,14 @@
             $name = $row['name'];
             $summary = $row['summary'];
             $category = $row['category'];
-            echo " <form class='form2'>
+            echo " Name: .{$name}. <br>";
+            echo " Summary: .{$summary}. <br>";
+            echo " Category: .{$category}. <br>
+
+ <!--
+
+
+ <form class='form2'>
 
 
         <table>
@@ -61,7 +68,12 @@
             <tr><td><input type='text' name='category' size='100' value='{$category}' readonly></td></tr>
         </table>
     </form>
-    <hr>";
+    <hr>
+    -->
+
+
+    ";
+
         }
         ?>
 
