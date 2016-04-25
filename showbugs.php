@@ -25,11 +25,11 @@
     <aside class="grid-33">
         <nav>
             <ul>
-                <li><a href="showbugs.html">All Bugs</a></li>
-                <li><a href="bugs.html">Android Bugs</a></li>
-                <li><a href="bugs.html">iOS Bugs</a></li>
-                <li><a href="bugs.html">Windows Bugs</a></li>
-                <li><a href="addbugs.html">Insert Bug</a></li>
+                <li><a href="showbugs.php">All Bugs</a></li>
+                <li><a href="bugs.php?category=Android">Android Bugs</a></li>
+                <li><a href="bugs.php?category=ios">iOS Bugs</a></li>
+                <li><a href="bugs.php?category=windows">Windows Bugs</a></li>
+                <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
     </aside>

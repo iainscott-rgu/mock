@@ -27,9 +27,9 @@
         <nav>
             <ul>
                 <li><a href="showbugs.php">All Bugs</a></li>
-                <li><a href="showbugs.php">Android Bugs</a></li>
-                <li><a href="showbugs.php">iOS Bugs</a></li>
-                <li><a href="showbugs.php">Windows Bugs</a></li>
+                <li><a href="bugs.php?category=Android">Android Bugs</a></li>
+                <li><a href="bugs.php?category=ios">iOS Bugs</a></li>
+                <li><a href="bugs.php?category=windows">Windows Bugs</a></li>
                 <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
