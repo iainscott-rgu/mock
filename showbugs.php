@@ -18,6 +18,33 @@
     </section>
 </header>
 
+<?php
+include("connect.php");
+if(isset($_GET['category'])){
+    $bugsCategory = $_GET['category'];
+    echo "category {$bugsCategory}";
+    $sql = "SELECT * FROM bugs WHERE category = '$bugsCategory'";
+}
+else{
+    echo "category all bugs";
+    $sql = "SELECT * FROM bugs";
+}
+$result = $db->query($sql);
+while ($row = $result->fetch_array()) {
+    $name = $row['name'];
+    $summary = $row['summary'];
+    $category = $row['category'];
+    echo " <form class='form2'>
+        <table>
+            <tr><td><input type='text' name='link' size='100' value='{$link}'></td></tr>
+            <tr><td><textarea cols='101' rows='5' name='summary'>'{$summary}'</textarea></td></tr>
+            <tr><td><input type='text' name='category' size='100' value='{$category}'></td></tr>
+        </table>
+    </form>
+    <hr size='3'>";
+}
+?>
+
 <main class="grid-container">
 
     <aside class="grid-33">
