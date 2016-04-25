@@ -37,7 +37,7 @@
 
     <section class="grid-66">
 
-        <form class="form2" action="insert.php" method="post">
+        <form action="insert.php" method="post">
             <table>
                 <tr><td>
                         <label for="name">Bug Name:</label>
