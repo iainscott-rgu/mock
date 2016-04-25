@@ -52,9 +52,9 @@
             $name = $row['name'];
             $summary = $row['summary'];
             $category = $row['category'];
-            echo " Name: .{$name}. <br>";
-            echo " Summary: .{$summary}. <br>";
-            echo " Category: .{$category}. <br>
+            echo " Name: .'{$name}'. <br>";
+            echo " Summary: .'{$summary}'. <br>";
+            echo " Category: .'{$category}'. <br>
 
  <!--
 
