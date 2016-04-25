@@ -50,7 +50,7 @@
                         <textarea name="summary" cols="45" rows="5" required></textarea></td></tr>
                 <tr><td>
                         <label for="category">Bug Category:</label></td><td>
-                        <select>
+                        <select name="category">
                             <option value="Android">Android</option>
                             <option value="iOS">iOS</option>
                             <option value="Windows">Windows</option>
