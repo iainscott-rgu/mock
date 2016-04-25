@@ -40,7 +40,7 @@
         include("connect.php");
         if(isset($_GET['category'])){
             $bugsCategory = $_GET['category'];
-            echo "category: {$bugsCategory}";
+            echo "category: {$bugsCategory} <hr>";
             $sql = "SELECT * FROM bugs WHERE category = '$bugsCategory'";
         }
         else{
