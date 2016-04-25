@@ -40,11 +40,11 @@
         include("connect.php");
         if(isset($_GET['category'])){
             $bugsCategory = $_GET['category'];
-            echo "category {$bugsCategory}";
+            echo "category: {$bugsCategory}";
             $sql = "SELECT * FROM bugs WHERE category = '$bugsCategory'";
         }
         else{
-            echo "category all bugs";
+            echo "category: all bugs";
             $sql = "SELECT * FROM bugs";
         }
         $result = $db->query($sql);
@@ -59,7 +59,7 @@
             <tr><td><textarea class='form2' cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
             <tr><td><input type='text' class='form2' name='category' size='100' value='{$category}' readonly></td></tr>
         </table>
-    </form>
+    </form><hr>
     ";
         }
         ?>
