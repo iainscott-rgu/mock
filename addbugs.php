@@ -57,7 +57,7 @@
 
                         </select>
                     </td></tr>
-                <tr><td colspan="2"><p><input type="submit" id="submit" value="Submit"></p></td></tr>
+                <tr><td colspan="2"><p><input type="submit" id="submit" class='form2' value="Submit"></p></td></tr>
             </table>
         </form>
 

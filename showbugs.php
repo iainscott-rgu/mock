@@ -56,8 +56,8 @@
 
 
         <table>
-            <tr><td><input type='text' name='link' size='100' value='{$name}' readonly></td></tr>
-            <tr><td><textarea cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
+            <tr><td><input type='text' class='form2' name='link' size='100' value='{$name}' readonly></td></tr>
+            <tr><td><textarea class='form2' cols='101' rows='5' name='summary' readonly>'{$summary}'</textarea></td></tr>
             <tr><td><input type='text' class='form2' name='category' size='100' value='{$category}' readonly></td></tr>
         </table>
     </form>
