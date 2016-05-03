@@ -20,6 +20,10 @@ nav>ul{
     overflow: hidden;
 }
 
+nav>ul>li:hover{
+    color: orange;
+}
+
 li{
 
     font-size: 20px;
