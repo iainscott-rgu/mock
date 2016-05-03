@@ -44,6 +44,12 @@ header{
 #submit{
 
     float: right;
+    border: solid 1px;
+    text-decoration: none;
+}
+
+#submit:hover{
+    color: orange;
 }
 
 h2{
