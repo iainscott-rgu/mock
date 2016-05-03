@@ -50,10 +50,13 @@ header{
     float: right;
     border: solid 1px;
     text-decoration: none;
+    background-color: white;
 }
 
 #submit:hover{
     color: orange;
+    width: 5em;
+    height: 2em;
 }
 
 h2{
